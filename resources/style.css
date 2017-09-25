@@ -26,6 +26,11 @@ html {
   color:seashell;
   text-decoration: underline;
   justify-content: space-around;
+
+}
+
+a:visited {
+    color: seashell;
 }
 
 #mission {
@@ -34,20 +39,71 @@ html {
   width: 1200px;
   text-align: center;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
+}
+
+#mission h2 {
+  display: inline-flex;
+}
+
+#mission h4 {
+  display: inline-flex;
 }
 
 #tea{
-  width: 1000px;
+  max-width: 1000px;
+  margin: auto;
 }
+
 #tea img {
   width: 300px;
   height: 200px;
+  margin-right: 10px;
+}
+
+.table1 {
+  width: 1000px;
+}
+
+.table2 {
+  width: 600px;
+  margin: auto;
+}
+
+.table1, .table2 {
+  padding: 20px 40px;
+  font-weight: bold;
+}
+
+#proov{
+  background-color: black;
+  margin-top: 200px;
+  width: 1200px;
+  margin: auto;
 }
 
 #locations {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
-  height: 500px
+  height: 500px;
+  width: 1100px;
+  opacity: 1;
+  padding: 15px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.one, .three, .two {
   display: inline-block;
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  margin-left: 40px;
+  margin-top: 15px;
+
+
 }
 
 footer {
